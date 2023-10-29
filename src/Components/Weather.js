@@ -21,7 +21,7 @@ const Weather = () => {
 
   return (
     <div className="background color">
-      <div className=" mt-10 flex items-center justify-center">
+      <div className=" mt-10 flex items-center justify-center get">
       <input className="rounded-full text-2xl p-2 mx-10" type="text" placeholder="Enter City Name"
       value={location}
       onChange={event => setLocation(event.target.value)}

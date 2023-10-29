@@ -24,4 +24,12 @@ input{
     .small{
         margin-left: 5px;
     }
+    .get{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-top: 10px;
+    }
 }
+
