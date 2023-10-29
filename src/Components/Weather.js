@@ -44,7 +44,7 @@ const Weather = () => {
          </div>
          
          {data.name != undefined &&
-         <div className="flex justify-center items-center mt-10 ">
+         <div className="flex justify-center items-center mt-10 big">
          <div className="mx-10 small">
           <h2 className="text-xl font-bold text-center">Humidity</h2>
          {data.main ? <h1 className="text-l font-semibold text-center">{data.main.humidity}%</h1> : null}
